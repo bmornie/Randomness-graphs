@@ -31,7 +31,7 @@ python randomness.py -i <input_folder> -d <distance>
 ```
 This measures the Randomness, as defined in the manuscript, for the graphs stored in the input folder. Each file should contain the definition of one graph in edgelist format. See `example_input` for an example of a valid input.  
   
-The following distances are implemented: "JDD", "RNND", "JGD", "RGDD", "GCD" and "NetSimile".
+The following distances are implemented: `JDD`, `RNND`, `JGD`, `RGDD`, `GCD` and `NetSimile`.
   
 In addition, an output file can be provided with `-o <path>`. If provided, the pairwise distances between all pairs of graphs in the input folder will be written to this file. Names of input files are used to identify graphs.
   
