@@ -28,14 +28,6 @@ for i, ax in enumerate(axes.flat):
             precision = npzfile["%s_precision" %distance]
             recall = npzfile["%s_recall" %distance]
             
-            if i == 0 and distance == "JGM":
-                precision = np.delete(precision, -2)
-                recall = np.delete(recall, -2)
-                precision = np.delete(precision, -2)
-                recall = np.delete(recall, -2)
-                precision = np.delete(precision, -2)
-                recall = np.delete(recall, -2)
-            
             line, = ax.plot(recall, precision, label=dist_names[j], color=colors[j], linestyle=linestyles[j], linewidth=2)
             
             if i == 0:  # collect handles once
