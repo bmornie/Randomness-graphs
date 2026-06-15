@@ -46,7 +46,7 @@ Pairwise distances saved under result.txt
 ```
 
 ### Data and results
-The folder `experiments_paper` contains all the data and code required to reproduce the experimental results in the manuscript. Note that running the experiments can take a long time.
+The folder `experiments_paper` contains all the data and code required to reproduce the experimental results in the manuscript. See the `README.md` files in each subfolder for more info. Note that running the experiments can take a long time.
 
 ### License
 This project is licensed under the GNU General Public License v3.0.  
