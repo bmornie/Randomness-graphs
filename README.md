@@ -2,8 +2,8 @@
 
 This is the official implementation accompanying
 
-Mornie B., Colle D., Audenaert P., Pickavet M. (2026) **Quantifying randomness in complex graph sets using pairwise graph distances**,  
-submitted to Computing.
+Mornie B., Colle D., Audenaert P., Pickavet M. (2026) **Quantifying randomness in complex graph sets using pairwise graph distances**. Computing, 108(8): 122.  
+https://doi.org/10.1007/s00607-026-01717-x
 
 ### Requirements
 - Python3
